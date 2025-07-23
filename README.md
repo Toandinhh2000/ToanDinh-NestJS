@@ -11,3 +11,7 @@
 # Bai 5 : TypeORM
 
 # Bai 6 : CRUD
+
+# Bai 7 : One To One Relations
+
+# Bai 8: One To Many Relationship in Type ORM
