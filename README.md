@@ -9,3 +9,5 @@
 # Bai 4 : Dependency Injection
 
 # Bai 5 : TypeORM
+
+# Bai 6 : CRUD
