@@ -15,3 +15,7 @@
 # Bai 7 : One To One Relations
 
 # Bai 8: One To Many Relationship in Type ORM
+
+# Bai 9: Many To Many Relationships with Type ORM
+
+# Bai 10: TypeORM Seeding
