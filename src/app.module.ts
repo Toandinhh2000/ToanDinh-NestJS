@@ -4,10 +4,16 @@ import { AppService } from './app.service';
 import { PropertyModule } from './property/property.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { pgConfig } from 'test/dbConfig';
+import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [PropertyModule, TypeOrmModule.forRoot(pgConfig)],
-  controllers: [AppController],
-  providers: [AppService],
+ import: [
+  ConfigModule.forRoot({
+    isGlobal: true,
+   expandVariables: true,
+  }),
+  PropertyModule,
+  TypeOrmModule.forRoot(pgConfig),
+ ],
+ imports: [UserModule]
 })
-export class AppModule {}

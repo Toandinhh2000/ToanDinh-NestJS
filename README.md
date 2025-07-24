@@ -19,3 +19,9 @@
 # Bai 9: Many To Many Relationships with Type ORM
 
 # Bai 10: TypeORM Seeding
+
+# Bai 11: Pagination
+
+# Bai 12: Manage Environment Variables in NestJS
+
+# Bai 13: Hashing
