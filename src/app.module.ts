@@ -5,6 +5,7 @@ import { PropertyModule } from './property/property.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { pgConfig } from 'test/dbConfig';
 import { UserModule } from './user/user.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
  import: [
@@ -15,5 +16,5 @@ import { UserModule } from './user/user.module';
   PropertyModule,
   TypeOrmModule.forRoot(pgConfig),
  ],
- imports: [UserModule]
+ imports: [UserModule, AuthModule]
 })
