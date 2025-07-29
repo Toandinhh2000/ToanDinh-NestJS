@@ -22,5 +22,8 @@ export class AuthService {
 
   remove(id: number) {
     return `This action removes a #${id} auth`;
+  const payload: AuthJwtPayload = { sub: userID };
+  const token = this.jwtService.sign(payload);
+  const refeshToken =
   }
 }

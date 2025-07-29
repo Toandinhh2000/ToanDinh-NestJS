@@ -25,3 +25,9 @@
 # Bai 12: Manage Environment Variables in NestJS
 
 # Bai 13: Hashing
+
+# Bai 14: NestJS Authentication With Local Strategy
+
+# Bai 15: NestJS JWT Authentication – Secure Your API Like a Pro!
+
+# Bai 16: NestJS Refresh Token: Step By Step Guide With Passport.JS
