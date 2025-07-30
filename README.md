@@ -31,3 +31,11 @@
 # Bai 15: NestJS JWT Authentication – Secure Your API Like a Pro!
 
 # Bai 16: NestJS Refresh Token: Step By Step Guide With Passport.JS
+
+# Bai 17: How To Revoke JWT Tokens In NestJS : Easy Step-by-Step Guide
+
+# Bai 18: Master Role-Based Authorization in NestJS (Full Guide)
+
+# Bai 19: A Trick For Enabling Global Auth In NestJS
+
+# Bai 20: NestJS Google OAuth Authentication + React App | Full Guide
