@@ -39,3 +39,7 @@
 # Bai 19: A Trick For Enabling Global Auth In NestJS
 
 # Bai 20: NestJS Google OAuth Authentication + React App | Full Guide
+
+# Bai 21: Drizzle ORM Crash Course in NestJS – Full Guide (With PostgreSQL & NEON)
+
+# Bai 22: Master Monorepos with NestJS, NextJS & Turborepo

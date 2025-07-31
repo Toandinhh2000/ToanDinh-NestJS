@@ -6,6 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { pgConfig } from 'test/dbConfig';
 import { UserModule } from './user/user.module';
 import { AuthModule } from './auth/auth.module';
+import { DrizzleModule } from './drizzle/drizzle.module';
 
 @Module({
  import: [
@@ -16,5 +17,5 @@ import { AuthModule } from './auth/auth.module';
   PropertyModule,
   TypeOrmModule.forRoot(pgConfig),
  ],
- imports: [UserModule, AuthModule]
+ imports: [UserModule, AuthModule, DrizzleModule]
 })
